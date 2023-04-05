@@ -93,6 +93,7 @@
 )]
 #![cfg_attr(super_unstable, feature(proc_macro_def_site))]
 #![cfg_attr(doc_cfg, feature(doc_cfg))]
+#![feature(proc_macro_is_available)]
 #![allow(
     clippy::cast_lossless,
     clippy::cast_possible_truncation,
